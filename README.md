@@ -1,1 +1,1 @@
-# rsschool-cv
+https://github.com/BSKOM/rsschool-cv/cv
