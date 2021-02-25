@@ -1,1 +1,1 @@
-https://bskom.github.io/rsschool-cv/git add
+https://bskom.github.io/rsschool-cv/ 
