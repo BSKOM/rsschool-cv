@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *, *:after, *:before {
@@ -54,6 +55,15 @@ body {
   padding: 0 1rem;
 }
 
+.header__top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  z-index: 999;
+}
+
 .cv__wrap {
   display: flex;
   justify-content: center;
@@ -75,18 +85,18 @@ body {
 }
 
 .cv-contacts, .cv-educ, .cv-english, .cv-scills {
-  padding: 0.6em 0;
-  margin-left: 5git %;
+  padding-top: 0.6em;
+  margin-left: 5%;
   margin-right: 5%;
 }
 
-.sv-detail__line {
+/* .sv-detail__line {
   display: block;
   margin-top: 5px;
   height: 4px;
   width: 80px;
   background-color: black;
-}
+} */
 
 .sv-brief__line {
   display: block;
@@ -105,7 +115,7 @@ body {
 }
 
 hr {
-  margin: -1px 0 15px;
+  margin: -1px 0 2%;
 }
 
 .contacts {
