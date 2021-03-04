@@ -71,19 +71,13 @@ body {
 .cv__title {
   background-color: rgb(75, 151, 75);
   color: white;
-  padding: 0.6em 10%;
+  padding: 0.6em 5%;
 }
 
 .cv-contacts, .cv-educ, .cv-english, .cv-scills {
   padding: 0.6em 0;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-h3 {
-  font-size: 24px;
-  color: rgb(75, 151, 75);
-  text-transform: uppercase;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .sv-detail__line {
@@ -115,47 +109,37 @@ hr {
 }
 
 .contacts {
-  height: 150px;
+  /* height: 150px; */
   display: inline-flex;
   flex-direction: column;
   justify-content: space-around;
+  font-size: calc( (100vw - 30rem)/(80 - 30) * (1.0 - 0.6) + 0.6rem);
 }
 
 .contact {
-  margin-left: 50px;
+  /* margin-left: 50px; */
   text-decoration: none;
   color: white;
-  position: relative;
+  display: flex;
+  align-items: center;
+  line-height: 1.7;
 }
 
-.contact:before {
-  content: url('phone1-icon.svg');
-  position: absolute;
+.contact__icon {
+  height: 1.5em;
+  width: 1.5em;
+  background-color: #fff;
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 30px;
-  height: 30px;
-  background-color: #fff;
-  border-radius: 50%;
-  left: -50px;
-  top: -8px;
+  margin-right: 3px;
 }
 
-.contacts__phone:before {
-  content: url('phone1-icon.svg');
-}
-
-.contacts__email:before {
-  content: url('email1-icon.svg');
-}
-
-.contacts__web:before {
-  content: url('web1-icon.svg');
-}
-
-.contacts__address:before {
-  content: url('marker1-icon.svg');
+.contact__icon-img {
+  display: block;
+  height: 1em;
+  width: 1em;
 }
 
 .cv__title span {
@@ -174,20 +158,18 @@ h2 {
 }
 
 h3 {
+  color: rgb(75, 151, 75);
   font-size: calc( (100vw - 30rem)/(80 - 30) * (1.2 - 0.8) + 0.8rem);
-  /* font-size: 24px; */
   text-transform: uppercase;
 }
 
 h4 {
-  /* font-size: 20px; */
   font-size: calc( (100vw - 30rem)/(80 - 30) * (1.1 - 0.7) + 0.7rem);
   text-transform: uppercase;
 }
 
 h6 {
   font-size: calc( (100vw - 30rem)/(80 - 30) * (1.0 - 0.6) + 0.6rem);
-  /* font-size: 18px; */
   margin-bottom: 20px;
 }
 
