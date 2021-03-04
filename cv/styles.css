@@ -66,17 +66,18 @@ body {
   background-color: black;
   color: white;
   width: 30%;
-  /* margin-right: 20px; */
 }
 
 .cv__title {
   background-color: rgb(75, 151, 75);
   color: white;
-  padding: 10px 30px;
+  padding: 0.6em 10%;
 }
 
 .cv-contacts, .cv-educ, .cv-english, .cv-scills {
-  padding: 10px 30px;
+  padding: 0.6em 0;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 h3 {
@@ -158,28 +159,35 @@ hr {
 }
 
 .cv__title span {
-  font-size: 22px;
+  font-size: calc( (100vw - 30rem)/(80 - 30) * (1.2 - 0.8) + 0.8rem);
   text-transform: uppercase;
   line-height: 1.0;
 }
 
 h2 {
-  font-size: 28px;
+  /* font-size: 28px; */
+  /* font-size: calc( (100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin); */
+  /* font-size: calc( (100vw - Vmin)/(Vmax - Vmin) * (1.5 - 1) + 1rem); */
+  /* font-size: calc( (100vw - 30rem)/(80 - 30) * (28 - 16) + 16px); */
+  font-size: calc( (100vw - 30rem)/(80 - 30) * (1.5 - 1) + 1rem);
   text-transform: uppercase;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: calc( (100vw - 30rem)/(80 - 30) * (1.2 - 0.8) + 0.8rem);
+  /* font-size: 24px; */
   text-transform: uppercase;
 }
 
 h4 {
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: calc( (100vw - 30rem)/(80 - 30) * (1.1 - 0.7) + 0.7rem);
   text-transform: uppercase;
 }
 
 h6 {
-  font-size: 18px;
+  font-size: calc( (100vw - 30rem)/(80 - 30) * (1.0 - 0.6) + 0.6rem);
+  /* font-size: 18px; */
   margin-bottom: 20px;
 }
 
@@ -234,13 +242,10 @@ progress::-webkit-progress-value {
   margin-top: 30px;
 }
 
-.cv-work p,
-.cv-detail li,
-.cv-about p {
+.cv-work p, .cv-detail li, .cv-about p {
   font-size: 18px;
   line-height: 1.5;
 }
-
 
 .cv-refer__items {
   columns: 2;
