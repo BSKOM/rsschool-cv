@@ -39,6 +39,7 @@ html, body {
 body {
   min-height: 100vh;
   color: #243f4d;
+  background-color: #dfdfdf;
   font-size: 16px;
   line-height: normal;
   display: flex;
@@ -55,21 +56,32 @@ body {
   padding: 0 1rem;
 }
 
-.header__top {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: transparent;
-  z-index: 999;
-}
-
 .cv__wrap {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   margin-top: 47px;
   margin-bottom: 47px;
   box-shadow: 0px 6px 47px 3px rgba(37, 37, 37, 0.9);
+}
+
+.cv__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .header {
+
+} */
+
+.header-fixed {
+  display: none;
+  justify-content: space-between;
+  color: #243f4d;
+  background-color: transparent;
+}
+
+.menu__list {
+  display: flex;
 }
 
 .cv-brief {
@@ -89,14 +101,6 @@ body {
   margin-left: 5%;
   margin-right: 5%;
 }
-
-/* .sv-detail__line {
-  display: block;
-  margin-top: 5px;
-  height: 4px;
-  width: 80px;
-  background-color: black;
-} */
 
 .sv-brief__line {
   display: block;
@@ -187,6 +191,10 @@ h6 {
   margin-bottom: 20px !important;
 }
 
+.cv-scills__abils {
+  margin-bottom: 20vh !important;
+}
+
 .cv-scill__item {
   display: flex;
   justify-content: space-between;
@@ -221,7 +229,6 @@ progress::-webkit-progress-value {
 
 .cv-detail {
   padding: 100px 4%;
-  background-color: #dfdfdf;
   color: #000;
   width: 65%;
 }
@@ -239,22 +246,43 @@ progress::-webkit-progress-value {
   line-height: 1.5;
 }
 
-.cv-refer__items {
-  columns: 2;
+.cv__footer {
+  margin-top: -20vh;
+  max-height: 20vh;
 }
 
-.cv-refer__item {
+.cv__footer-wrap {
+  margin-top: -1.8%;
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
+  align-items: center;
 }
 
-.cv-refer__position {
-  font-weight: bold;
+.cv__footer-one {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.cv-refer__text, .cv-refer__link {
-  text-decoration: none;
-  color: #243f4d;
-  font-weight: bold;
+.cv__footer-logo {
+  height: 5vh;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.cv__footer-img {
+  width: 100%;
+  display: block;
+  filter: invert(1);
+}
+
+.cv__footer-two {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
