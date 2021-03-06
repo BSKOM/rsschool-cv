@@ -65,33 +65,8 @@ body {
 }
 
 .cv__inner {
-  margin-top: -15vh;
   display: flex;
   justify-content: space-between;
-}
-
-.header__one {
-  width: 35%;
-}
-
-.header__fixed {
-  width: 65%;
-  margin-left: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: #243f4d;
-  background-color: transparent;
-}
-
-.header__logo {
-  height: 10vh;
-  width: 20vh;
-}
-
-.logo__img {
-  margin-top: 3vh;
-  max-width: 100%;
 }
 
 .menu__list {
@@ -99,7 +74,6 @@ body {
 }
 
 .cv-brief {
-  margin-top: 47px;
   background-color: black;
   color: white;
   width: 35%;
@@ -265,19 +239,19 @@ progress::-webkit-progress-value {
   height: 100%;
 }
 
-.cv__footer-wrap {
+.cv__header-wrap, .cv__footer-wrap {
   padding: 2vh 0;
   display: flex;
   justify-content: space-between;
 }
 
-.cv__footer-one {
+.cv__header-one, .cv__footer-one {
   width: 35%;
   display: flex;
   justify-content: center;
 }
 
-.cv__footer-logo {
+.cv__header-logo, .cv__footer-logo {
   height: 10vh;
   width: 30%;
   display: flex;
@@ -285,7 +259,6 @@ progress::-webkit-progress-value {
 }
 
 .cv__footer-img {
-  display: block;
   filter: invert(1);
 }
 
