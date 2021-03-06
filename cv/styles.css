@@ -80,8 +80,32 @@ body {
   justify-content: space-between;
 }
 
-.menu__list {
+.cv__header-two {
+  width: 65%;
+  padding: 0 4%;
   display: flex;
+ git
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.menu {}
+
+.menu__list {
+  font-size: calc((100vw - 30rem)/50 * 0.4 + 0.6rem);
+  display: flex;
+  align-items: center;
+}
+
+.menu__list-item {
+  margin-left: 5px;
+}
+
+.menu__list-link {
+  color: #243f4d;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .cv-brief {
@@ -123,17 +147,14 @@ hr {
 }
 
 .contacts {
-  /* height: 150px; */
   display: inline-flex;
   flex-direction: column;
   justify-content: space-around;
-  /* font-size: calc((100vw - 30rem)/(80 - 30) * (1.0 - 0.5) + 0.5rem); */
   font-size: calc((100vw - 30rem)/50 * 0.5 + 0.5rem);
   color: white;
 }
 
 .contact {
-  /* margin-left: 50px; */
   text-decoration: none;
   color: inherit;
   display: flex;
@@ -159,33 +180,28 @@ hr {
 }
 
 .cv__title span {
-  /* font-size: calc((100vw - 30rem)/(80 - 30) * (1.2 - 0.8) + 0.8rem); */
   font-size: calc((100vw - 30rem)/50 * 0.4 + 0.8rem);
   text-transform: uppercase;
   line-height: 1.0;
 }
 
 h2 {
-  /* font-size: --font-h2; */
   font-size: calc((100vw - 30rem)/50 * 0.5 + 1rem);
   text-transform: uppercase;
 }
 
 h3 {
   color: rgb(75, 151, 75);
-  /* font-size: calc((100vw - 30rem)/(80 - 30) * (1.2 - 0.8) + 0.8rem); */
   font-size: calc((100vw - 30rem)/50 * 0.4 + 0.8rem);
   text-transform: uppercase;
 }
 
 h4 {
-  /* font-size: calc((100vw - 30rem)/(80 - 30) * (1.1 - 0.7) + 0.7rem); */
   font-size: calc((100vw - 30rem)/50 * 0.4 + 0.7rem);
   text-transform: uppercase;
 }
 
 h6 {
-  /* font-size: calc((100vw - 30rem)/(80 - 30) * (1.0 - 0.6) + 0.6rem); */
   font-size: calc((100vw - 30rem)/50 * 0.4 + 0.6rem);
   margin-bottom: 20px;
 }
@@ -204,22 +220,8 @@ h6 {
   align-items: center;
 }
 
-label {
-  display: block;
-}
-
 .cv-scills__general {
   text-transform: uppercase;
-}
-
-/* .w3-grey, .w3-hover-grey:hover, .w3-gray, .w3-hover-gray:hover {
-  color: #000!important;
-  background-color: #9e9e9e!important
-} */
-
-.w3-light-grey {
-  /* color: #000!important; */
-  background-color: #f1f1f1!important
 }
 
 .progress__bg {
@@ -285,14 +287,6 @@ label {
 
 .cv__footer-img {
   filter: invert(1);
-}
-
-.cv__header-two {
-  width: 65%;
-  padding: 0 4%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 .cv__footer-two {
