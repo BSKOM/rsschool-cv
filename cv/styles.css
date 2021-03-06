@@ -82,15 +82,26 @@ body {
 
 .cv__header-w3, .cv__header-logo {
   width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-/* cv__w3-img  */
+.cv__header-w3 {
+  /* filter: opacity(60%); */
+  filter: grayscale(70%)
+}
 
 .cv__header-one {
   width: 35%;
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.cv-brief__avatar {
+  filter: contrast(150%);
+  filter: grayscale(70%)
 }
 
 .cv__header-two {
@@ -101,7 +112,7 @@ body {
   align-items: center;
 }
 
-.menu {}
+/* .menu {} */
 
 .menu__list {
   font-size: calc((100vw - 30rem)/50 * 0.4 + 0.6rem);
