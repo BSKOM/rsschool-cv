@@ -80,11 +80,23 @@ body {
   justify-content: space-between;
 }
 
+.cv__header-w3, .cv__header-logo {
+  width: 30%;
+}
+
+/* cv__w3-img  */
+
+.cv__header-one {
+  width: 35%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .cv__header-two {
   width: 65%;
   padding: 0 4%;
   display: flex;
- git
   justify-content: flex-end;
   align-items: center;
 }
@@ -267,7 +279,7 @@ h6 {
   justify-content: space-between;
 }
 
-.cv__header-one, .cv__footer-one {
+.cv__footer-one {
   width: 35%;
   display: flex;
   justify-content: center;
