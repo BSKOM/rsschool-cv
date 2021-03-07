@@ -80,20 +80,34 @@ body {
   justify-content: space-between;
 }
 
-.cv__header-w3, .cv__header-logo {
+.cv__header-w31, .cv__header-w33, .cv__header-logo {
   width: 30%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.cv__header-w3 {
-  /* filter: opacity(60%); */
+.cv__header-logo {
+  border-radius: 35%;
+}
+
+.cv__header-w31, .cv__header-w33 {
   filter: grayscale(70%)
+}
+
+.cv__header-w31 {
+  /* background-image: url('wing-l.jpg');
+  background-size: auto contain;
+  background-repeat: no-repeat; */
+}
+
+.cv__w3-img {
+  z-index: 999;
 }
 
 .cv__header-one {
   width: 35%;
+  height: inherit;
   display: flex;
   justify-content: space-around;
   align-items: center;
