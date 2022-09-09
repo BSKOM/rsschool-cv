@@ -42,7 +42,7 @@ COMPANY NAME LOCATION 2020 - Present
 
 ### Write your jobs
 
-COMPANY NAME LOCATION 2015 - 2020 
+COMPANY NAME LOCATION 2015 - 2022 
 
 * Lorem ipsum dolor sit amet consectetur adipisicing elit. 
 * Quisquam, fuga accusantium aut, velit aliquam commodi molestiae 
