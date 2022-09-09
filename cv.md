@@ -23,7 +23,7 @@ A1+. I take lessons three times a week
 
 ## SKILS
 
-over 15 programming languages
+before 20 programming languages
 
 ## <b style="font-size:24px"> ABOUT </b>
 
